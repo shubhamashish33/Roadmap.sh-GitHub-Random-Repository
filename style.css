@@ -1,0 +1,47 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.select-wrapper {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.repository {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.repository h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
